@@ -1,4 +1,4 @@
-# Wespace Space Template
+# Wavespace Space Template
 
 This is a one page template for a coworking space website built with Tailwind CSS. It features a clean and modern design with sections for information about the coworking space, amenities, testimonials, and subscribe form.
 
