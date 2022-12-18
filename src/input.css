@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GENERAL */
+h1 {
+    @apply font-semibold text-2xl md:text-4xl lg:text-6xl tracking-wide text-black;
+}
+
+h2 {
+    @apply font-semibold text-xl md:text-3xl lg:text-5xl tracking-wide my-6 text-black;
+}
+
+h4 {
+    @apply font-semibold text-base md:text-xl tracking-wide text-black;
+}
+
+h5 {
+    @apply text-gray uppercase tracking-wider;
+}
+
+p {
+    @apply text-base text-gray;
+}
+
+.button {
+    @apply bg-black text-white font-semibold px-5 py-3 rounded-xl shadow-md text-sm lg:text-base;
+}
+
+.button-icon {
+    @apply font-semibold;
+}
+.button-icon img {
+    @apply inline;
+}
+
+
+/* NAVIGATION */
+.navbar {
+    @apply pt-6 pb-4 mx-16 border-b md:flex md:justify-between border-black;
+}
+
+.navbar-logo{
+    @apply flex justify-between;
+}
+
+.nav-menu {
+    @apply block md:flex;
+}
+
+.nav-list {
+    @apply mt-2 cursor-pointer md:ml-8;
+}
+
+.burger-menu{
+    @apply px-4 cursor-pointer block md:hidden;
+}
+
+.hidden-menu{
+    @apply hidden md:flex;
+}
+
+
+/* HERO */
+.hero {
+    @apply grid grid-rows-1 md:grid-rows-none md:grid-cols-2 gap-12 m-16;
+}
+
+.hero-header{
+    @apply mt-6 md:mt-8 lg:mt-12 order-last md:order-first;
+}
+
+.hero-title {
+    @apply mb-8 text-center md:text-left;
+}
+
+.hero-description{
+    @apply mb-16 text-center md:text-left;
+}
+
+.hero-image {
+    @apply rounded-2xl object-cover w-full;
+}
+
+.hero-button {
+    @apply flex justify-center items-center md:justify-start;
+}
+
+.hero-button .button{
+    @apply mr-8;
+}
+
+/* ABOUT */
+.about{
+    @apply grid grid-rows-1 md:grid-rows-none md:grid-cols-2 gap-12 my-32 mx-8 md:mx-16;
+}
+
+.about-content{
+    @apply text-center md:text-left;
+}
+
+.about-desc{
+    @apply mt-8 ;
+}
+
+.about-image {
+    @apply rounded-2xl object-cover w-full;
+}
+
+/* amenitis */
+.amenities{
+    @apply my-32 mx-8 md:mx-16;
+}
+
+.amenities-header{
+    @apply text-center mb-16;
+}
+
+.amenities-grid{
+    @apply grid grid-rows-1 md:grid-rows-none md:grid-cols-3 gap-8  items-center justify-center;
+}
+
+.amenities-image{
+    @apply rounded-2xl object-cover w-full;
+}
+
+.amenities-image-desc{
+    @apply text-center my-8;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+    @apply my-32 mx-8 md:mx-16;
+}
+
+.testimonials-grid{
+    @apply grid grid-rows-1 grid-rows-none md:grid-cols-3 gap-8 my-16;
+}
+
+.testimonials-card{
+    @apply p-4 md:p-8 border border-black;
+}
+
+.testimonials-card-header{
+    @apply flex mb-4;
+}
+
+.testimonials-card-header-user{
+    @apply ml-4;
+}
+
+/* SUBSCRIBE */
+.subscribe-us{
+    @apply pt-6 pb-4 mx-8 md:mx-16 flex justify-center items-center flex-col border-y border-black
+}
+.subscribe-us-header{
+    @apply text-center max-w-2xl;
+}
+
+.subscribe-form{
+    @apply my-16 flex justify-center items-center flex-col space-y-4;
+}
+
+.subscribe-input{
+    @apply rounded-md border border-gray bg-white px-4 py-2 text-base font-medium text-gray outline-none focus:border-black focus:shadow-md;
+}
+
+.subscribe-button{
+    @apply block w-full;
+}
+
+/* */
+.footer{
+    @apply pt-6 pb-4 mx-8 md:mx-16;
+}
+
+.footer-grid{
+    @apply grid grid-rows-1 md:grid-rows-none md:grid-cols-2;
+}
+
+.footer-menu{
+    @apply flex mt-4;
+}
+
+.footer-menu-list{
+    @apply text-xs mr-2 font-semibold cursor-pointer my-4 md:my-8;
+}
+
+.footer-copyright{
+    @apply flex justify-between border-t border-black pt-4;
+}
+
+.footer-social-media{
+    @apply flex;
+}
+
+.social-media-icon{
+    @apply w-4 h-4 ml-2;
+}
