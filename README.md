@@ -15,8 +15,7 @@ To use this template, you will need to have Node.js and npm installed on your ma
 
     1. Clone or download the repository
     2. Navigate to the project directory and run npm install to install the dependencies
-    3. Run npm run build to build the CSS
-    4. Open the index.html file in your browser to view the template
+    3. Open the index.html file in your browser to view the template
 
 ## Customization
 To customize the template, you can modify the HTML and CSS files in the src or dist directory. The template uses Tailwind CSS for styling, so you can use the available utility classes to change the look and feel of the template.
